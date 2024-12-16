@@ -49,6 +49,9 @@ Route::post('/admin/bao-cao/doi-trang-thai', [BaoCaoController::class, 'doitrang
 //PHÒNG
 
 Route::get('/khach-hang/loai-phong', [LoaiPhongController::class, 'getData']);
+Route::get('/khach-hang/dat-phong', [LoaiPhongController::class, 'datPhong']);
+
+
 
 
 
